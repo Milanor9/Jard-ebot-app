@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">PPE2</string>
+    <string name="title_activity_menu_slider">Menu_slider</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="calendrier">Calendrier</string>
+
+    <string name="hardware">Hardware</string>
+    <string name="photo_raspberry">Photo de la Raspberry 3</string>
+    <string name="description_raspberry">Description de la Raspberry 3</string>
+    <string name="photo_dht">Photo du DHT22</string>
+    <string name="description_dht">Capteur servant à faire des relevés sur l\'humidité de l\'air et sur la température</string>
+    <string name="photo_moisture_sensor">Photo du moisture sensor</string>
+    <string name="description_moisture_sensor">Capteur servant à faire des relevés sur l\'humidité du sol</string>
+    <string name="photo_node">Photo du node mcu</string>
+    <string name="description_node">Description du node mcu</string>
+
+    <string name="notice">Notice</string>
+    <string name="photo_menu1">Photo du menu 1</string>
+    <string name="description_menu1">En glissant votre doigt du bord gauche vers la droite, vous verrez apparaître ce menu,
+    vous pourrez ainsi accéder à différents onglets </string>
+    <string name="photo_menu2">Photo du menu 2</string>
+    <string name="description_menu2">Explication du menu 2</string>
+
+    <string name="potager">Potager </string>
+    <string name="photo_potager">Photo du potager </string>
+
+    <string name="forum">Forum </string>
+    <string name="facebook">Page Facebook </string>
+
+    <string name="suivi">Suivi </string>
+    <string name="texte_graph1">Relevés du capteur de température </string>
+    <string name="texte_graph2">Relevés du capteur d\'humidité </string>
+
+    <string name="fiches">Fiches</string>
+    <string name="back">Retour en arrière</string>
+    <string name="tomate">Informations sur la tomate</string>
+    <string name="photo_tomate">Image tomate</string>
+    <string name="texte_tomate">Texte descriptif sur la tomate</string>
+    <string name="carotte">Informations sur la carotte</string>
+    <string name="photo_carotte">Image carotte</string>
+    <string name="texte_carotte">Texte descriptif sur la carotte</string>
+
+</resources>

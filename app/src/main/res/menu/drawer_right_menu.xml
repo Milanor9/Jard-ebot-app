@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@drawable/ic_forum"
+            android:title="Forum" />
+        <item
+            android:id="@+id/nav_fiches"
+            android:icon="@drawable/ic_fiches"
+            android:title="Fiches infos" />
+        <item
+            android:id="@+id/nav_hardware"
+            android:icon="@drawable/ic_calendrier"
+            android:title="Hardware" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_calendrier"
+            android:title="Notice" />
+    </group>
+
+</menu>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+   >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/notice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp"
+            android:text="@string/notice"
+            android:textSize="@android:dimen/app_icon_size" />
+
+        <ImageView
+            android:id="@+id/menu_gauche"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/menu1"
+            android:contentDescription="@string/photo_menu1"
+            android:layout_below="@id/notice"/>
+
+        <TextView
+            android:id="@+id/text_menu1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menu_gauche"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="@string/description_menu1" />
+
+        <ImageView
+            android:id="@+id/menu2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menu2"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/text_menu1"
+            android:contentDescription="@string/description_menu2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/menu2"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="@string/description_menu2" />
+    </RelativeLayout>
+</ScrollView>

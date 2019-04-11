@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/hardware"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="10dp"
+            android:text="@string/hardware"
+            android:textSize="@android:dimen/app_icon_size" />
+    <ImageView
+        android:id="@+id/imageView_rasp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/photo_raspberry"
+        android:src="@drawable/raspberry_3"
+        android:layout_below="@+id/hardware"/>
+    <TextView
+        android:id="@+id/text_rasp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_raspberry"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView_rasp"/>
+
+    <ImageView
+        android:id="@+id/imageView_dht"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/photo_dht"
+        android:src="@drawable/dht"
+        android:layout_below="@id/text_rasp"/>
+    <TextView
+        android:id="@+id/text_dht"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_dht"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView_dht"/>
+
+    <ImageView
+        android:id="@+id/imageView_moisture_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/photo_moisture_sensor"
+        android:src="@drawable/moisture_sensor"
+        android:layout_below="@id/text_dht"/>
+    <TextView
+        android:id="@+id/text_moisture_sensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_moisture_sensor"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView_moisture_sensor"/>
+
+    <ImageView
+        android:id="@+id/imageView_node"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/photo_node"
+        android:src="@drawable/node"
+        android:layout_below="@id/text_moisture_sensor"
+        android:overScrollMode="ifContentScrolls"/>
+    <TextView
+        android:id="@+id/text_node"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_node"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/imageView_node"/>
+
+    </RelativeLayout>
+</ScrollView>
